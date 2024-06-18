@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+ background-color:rgb(119, 84, 145);   
+}
+
+.faith{
+    background-image: url(./assets/Drews.png);
+  
+    animation: slide 5s infinite alternate;
+}
+
+
+  
+@keyframes slide {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
